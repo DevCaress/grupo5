@@ -1,0 +1,21 @@
+h1{
+    background-color: blueviolet; 
+    color: rgb(195, 224, 32);
+}
+
+p{
+    background-color: chartreuse;
+    color: crimson;
+}
+
+#azul, 
+#azulx2{
+    background-color: darkblue;
+    color: white;
+}
+
+
+.rojo{
+    background-color: tomato;
+    color: turquoise;
+}
