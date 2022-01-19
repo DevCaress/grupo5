@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(212, 180, 147);
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+img{
+    width:100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+#color1{
+    background-color: black;
+    color: #fff;
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+}
+
+#color2{
+    background-color: white;
+}
+#color3{
+    background-color: red;
+}
+#color4{
+    background-color: lime;
+}
+#color5{
+    background-color: blue;
+}
+
+
+#rgb1{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#rgb2{
+    background-color: rgb(255,255,255);
+}
+
+#rgb3{
+    background-color: rgb(255,0,0);
+}
+#rgb4{
+    background-color: rgb(0,255,0);
+}
+#rgb5{
+    background-color: rgb(0,0,255);
+}
+
+
+#hex1{
+    background-color:  #000;
+}
+#hex2{
+    background-color: #fff;
+}
+#hex3{
+    background-color: #f00;
+}
+#hex4{
+    background-color: #00ff0077;
+}
+#hex5{
+    background-color: #0000ff;
+}
+
+#hsl1{
+    background-color: hsl(0,0%, 0%);
+}
+#hsl2{
+    background-color: hsl(123, 83%, 100%);
+}
+#hsl3{
+    background-color: hsla(0,100%,50%,0.3);
+}
+
+#hsl4{
+    background-color: hsl(120,100%, 50%);
+}
+
+#hsl5{
+    background-color: hsl(240, 100%, 50%);
+}

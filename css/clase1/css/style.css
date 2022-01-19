@@ -1,21 +1,94 @@
-h1{
-    background-color: blueviolet; 
-    color: rgb(195, 224, 32);
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{
+    font-family: Pacifico;
+    src: url('fonts/Pacifico-Regular.ttf');       
 }
 
+/* menu */
+/***********
+header
+main
+footer 
+***********/
+
+/* general */
+
+body{
+    color: darkmagenta;
+}
+
+button{
+    background-color: aqua;
+}
 p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-variant: small-caps;
+    text-indent: 30px;
+}
+
+/* header */
+
+
+header nav button{
+    background-color: blue;
+}
+
+header h1{
+    background-color: blueviolet; 
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    /* font-family: 'Neonderthaw', cursive; */
+}
+
+header h1{
+    background-color: greenyellow; 
+    color: rgb(226, 12, 12);
+    text-align:center;
+    text-transform:capitalize;
+    text-indent: 30px;
+}
+
+header h2 a{
+    font-family: Pacifico;
+
+    text-decoration: overline dotted blue;
+
+    /* text-decoration-line: overline;
+    text-decoration-thickness: initial;
+    text-decoration-style: double;
+    text-decoration-color: blue; */
+}
+
+/* main */
+
+main button{
+    background-color: pink;
+}
+
+main p{
     background-color: chartreuse;
     color: crimson;
 }
 
-#azul, 
-#azulx2{
+main #azul, 
+main #azulx2{
     background-color: darkblue;
     color: white;
 }
 
 
-.rojo{
+main .rojo{
     background-color: tomato;
     color: turquoise;
+}
+
+
+
+/* footer */
+
+footer p{
+    background-color: blueviolet;
 }
