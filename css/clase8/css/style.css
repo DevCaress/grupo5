@@ -1,0 +1,135 @@
+
+:root{
+    --var1: rgb(255, 0, 221);
+    --padding-general: 1.2rem;
+    --font-parrafor: Helvetica;
+    --font-titles: Sans;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 1rem;
+    /* background-image: url(../img/caress.jpg); */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 1rem;
+    text-shadow: 0 0 5px white;
+    font-size: 1.5rem;
+}
+
+p:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    background-color: rgb(155, 125, 7);
+}
+
+
+section:first-child{
+    background-color: rgb(218, 180, 15);
+}
+
+
+p:first-child{
+    background-color: aquamarine;
+}
+
+/* section:last-child,
+section:last-of-type{
+    background-color: blue;
+} */
+
+section p:nth-child(3n){
+    background-color: blueviolet;
+}
+
+table{
+    margin: 1rem;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(2n){
+    background-color: aqua;
+}
+
+.morado{
+    background-color: blueviolet;
+}
+
+/* .amarillo{
+    background-color: yellow;
+} */
+
+
+span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+span::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/caress.jpg);
+    background-size: contain;
+}
+
+span::after{
+    content: 'assda';
+}
+
+
+
+p::first-line{
+    background-color: blue;
+    color: var(--color-principal);
+}
+
+p::first-letter{
+    font-size: 4rem;
+}
+
+span.blueviolet{
+    background-color: blueviolet;
+}
+
+ul{
+    margin-left: 2rem;
+}
+
+li::marker{
+    color: blueviolet;
+}
+
+
+p::selection{
+    background-color: crimson;
+    color: azure;
+}
+
+span{
+    color: var(--color-principal);
+}

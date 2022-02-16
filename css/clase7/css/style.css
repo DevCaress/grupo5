@@ -1,0 +1,81 @@
+
+
+.text-white{
+    color: #fff;
+}
+
+.br{
+    border-radius: 2rem;
+}
+.titles{
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 1rem;
+}
+ul{
+    background-color: aqua;
+    list-style-type: gujarati;
+    list-style-position: inside;
+    /* list-style-image: url(../img/favicon.ico) ; */
+}
+
+li{
+    background-color: blueviolet;
+}
+
+.lista-1{
+
+    padding: 1rem;
+}
+
+.lista-3{
+
+    padding: 2rem;
+}
+
+table, td{ 
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+}
+
+td:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:link{
+    color: chartreuse;
+}
+
+a:visited{
+    color: darkorange;
+}
+
+a:hover,
+a:active,
+a:focus{
+    background-color: blueviolet;
+    /* padding: 1rem; */
+    color: #fff;
+}
+
+/* a:active,
+a:focus{
+    background-color: red;
+} */
+
+a:focus-visible{
+    background-color: aqua;
+}
+
+
+
+
+

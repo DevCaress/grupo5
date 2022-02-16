@@ -1,0 +1,39 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+
+main{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+div{
+    
+    background-color: aqua;
+    border: 5px dotted blueviolet;
+    font-size: 1.2rem;   
+    width: 30%;
+
+
+
+}
+
+p{
+    background-color: brown;
+    font-size: 3rem;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}

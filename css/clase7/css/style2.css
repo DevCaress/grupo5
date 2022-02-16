@@ -1,0 +1,37 @@
+/* Especificidad o  */
+
+.fw{
+    font-weight: bold;
+}
+
+li.fw {
+    font-size: 3rem;
+}
+
+ul{
+    background-color: blueviolet;
+}
+
+
+section ul{
+    background-color: aqua;
+}
+
+div section ul{
+    background-color: aquamarine;
+}
+
+
+body > section{
+    background-color: red;
+    padding: 1rem;
+}
+
+
+.lista-1{
+    background-color: yellow;
+}
+
+body > section > ul.lista-1{
+    background-color: blue;
+}
