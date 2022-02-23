@@ -1,0 +1,76 @@
+@use 'animiations';
+
+
+
+$primary-color: red;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color: rgb(211, 201, 201);
+    padding: 3rem;
+    div{
+        h1{
+            background-color: blueviolet;
+            color: $primary-color;
+            padding: 1rem;
+            text-align: center;
+            transition: 1s ease;
+
+            &:hover{
+                cursor: pointer;
+                background-color: cadetblue;
+                transform: rotate(25deg);
+            }
+        }
+        section{
+            
+            .img{
+                padding: 1rem;
+                img{
+                    display: block;
+                    margin: auto;
+                    width: 60%;
+                    -webkit-animation-name: girar;
+                            animation-name: girar;
+                    -webkit-animation-duration: 3s;
+                            animation-duration: 3s;
+                    -webkit-animation-iteration-count: infinite;
+                            animation-iteration-count: infinite;
+                }
+            }
+            .info{
+                p{
+                    font-size: 2rem;
+                    transform: scale(.5);
+                }
+            }
+        }
+    }
+    .cards{
+        background-color: aquamarine;
+        margin: 1rem 0;
+        padding: 1rem;
+        div{
+            border: 3px dashed red;
+            font-size: 1.5rem;
+            padding: 1rem;
+
+            &.card{
+                border: 1px dotted rgb(0, 225, 255);
+                &:nth-child(6){
+                    background-color: yellow;
+                }
+            }
+        }
+        
+        
+    }
+}
+
