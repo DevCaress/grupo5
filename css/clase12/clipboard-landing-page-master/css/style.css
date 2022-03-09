@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+.d-flex {
+  display: flex;
+}
+
+.df-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fd-col-row {
+  flex-direction: column;
+}
+
+.fd-row-col {
+  flex-direction: row;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.m-auto {
+  display: block;
+  margin: 2rem auto;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #4c545d;
+  font-size: 1.5rem;
+}
+
+.desc {
+  text-align: center;
+  max-width: 700px;
+  color: #9fabb2;
+}
+
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btns {
+  width: 100%;
+}
+.btns div {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  margin: 0.75rem 1rem;
+  color: #fff;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.btns div:hover {
+  cursor: pointer;
+}
+.btns div.primary-btn {
+  background-color: #26baa4;
+}
+.btns div.primary-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px #26baa4;
+}
+.btns div.secondary-btn {
+  background-color: #6173ff;
+}
+.btns div.secondary-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px #6173ff;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .desc {
+    font-size: 1.2rem;
+  }
+
+  .fd-col-row {
+    flex-direction: row;
+  }
+
+  .fd-row-col {
+    flex-direction: column;
+  }
+
+  .imgs-section div {
+    margin: 0 1rem;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: 8rem auto;
+  max-width: 1200px;
+}
+section div {
+  padding: 1rem;
+}
+section .specs {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
