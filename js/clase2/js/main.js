@@ -29,7 +29,7 @@ var maxEdad = 12;
 
 
 /* Operadores logicos */
-/* && */
+/* &&  esta condicion se tiene que cumplir "y" esta otra*/
 
 var mensaje = false;/* mandar mensaje */
 var visto = false;/* Si me dejo en visto */
