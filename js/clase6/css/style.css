@@ -1,0 +1,22 @@
+
+body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+}
+div.click{
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+div.click:hover{
+    cursor: pointer;
+}
