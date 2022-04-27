@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.main{
+    background-color: blue;
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.main .screen{
+    padding: .5rem;
+    margin: .5rem 0;
+    height: 80px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.main .nums{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .nums .key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: blueviolet;
+    margin: .2rem;
+    width: 22%;
+    height: 50px;
+}
