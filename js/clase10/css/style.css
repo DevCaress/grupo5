@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    display: flex;
+}
+
+.card{
+    background-color: gray;
+    width: 419px;
+    height: 650px;
+    padding: 1rem;
+}
+
+.card .yellow{
+    background-color: goldenrod;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+}
+
+.card .img{
+    border: 5px solid gray;
+    margin: auto;
+    width: 84%;
+    height: 313px;
+    background-image: url(../img/cards/IMG-20211005-WA0001.jpg);
+    background-position: 362px -114px;
+}
+
+/* input{
+    margin: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.btn{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+} */
