@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Clase 11</title>
+</head>
+<body oncontextmenu="clicDerecho(event)">
+
+    <main>
+        <div class="btn" onclick="clickEv(event)" ondblclick="dobleClick(event)" oncontextmenu="clicDerecho(event)"><span>CLICK</span></div>
+        <div class="btn" onclick="clickEv(event)" ondblclick="dobleClick(event)" oncontextmenu="clicDerecho(event)"><span>CLICK</span></div>
+        <div class="btn" onclick="clickEv(event)" ondblclick="dobleClick(event)" oncontextmenu="clicDerecho(event)"><span>CLICK</span></div>
+    </main>
+
+    <section>
+        <div data-gato="img2" class="hotspot" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+
+        <div><img id="img1" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+        <div><img id="img2" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+        <div><img id="img3" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+        <div><img id="img4" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+        <div><img id="img5" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+        <div><img id="img6" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd()" src="img/mario.gif" alt=""></div>
+
+        <div data-gato="img1"  class="hotspot" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+    </section>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.btn{
+    margin: 1rem auto;
+    width: 40%;
+    padding: 1rem 1.5rem;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.btn > span{
+    pointer-events: none;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+section div{
+    width: 20%;
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+}
+
+
+#img1{
+    background-color: blueviolet;
+}
+
+#img2{
+    background-color: deeppink;
+}
+
+
+.hotspot:first-child{
+    background-color: deeppink;
+}
+
+.hotspot:last-of-type{
+    background-color: blueviolet;
+}
