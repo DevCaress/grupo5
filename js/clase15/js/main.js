@@ -11,7 +11,6 @@ console.log(fruits);
 /* console.log(fruits.pop()); */
 /* let fruits2 = fruits.pop(); */
 
-
 /* let fruits2 = fruits.shift();
 console.log(fruits); */
 /* let fruits2 = fruits.unshift('perro'); */
